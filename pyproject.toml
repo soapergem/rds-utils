@@ -1,0 +1,9 @@
+[project]
+name = "rds-utils"
+version = "0.1.0"
+description = "A simple utility library providing helper functions for RDS"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.36.12",
+]
