@@ -7,3 +7,11 @@ requires-python = ">=3.13"
 dependencies = [
     "boto3>=1.36.12",
 ]
+
+[project.urls]
+Homepage = "https://github.com/soapergem/rds-utils"
+Repository = "https://github.com/soapergem/rds-utils"
+Issues = "https://github.com/soapergem/rds-utils/issues"
+
+[tool.uv]
+publish-url = "https://upload.pypi.org/legacy/"
